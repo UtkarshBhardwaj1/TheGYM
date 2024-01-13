@@ -87,6 +87,9 @@
                                     <div class="container text-center">
                                         <button type="submit" class="btn btn-dark">Login</button>
                                     </div>
+                                     <div class="containerF text-center">
+                                        <a class="" type="button" href="forgotPassword.jsp">Forgot password?</a>
+                                    </div>
                                 </form>
 
                             </div>
