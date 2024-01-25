@@ -13,9 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-/**
- * Servlet implementation class ValidateOtp
- */
+//Servlet implementation class for validating otp
 @WebServlet("/ValidateOtp")
 public class ValidateOtp extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -26,11 +24,8 @@ public class ValidateOtp extends HttpServlet {
 		int value=Integer.parseInt(request.getParameter("otp"));
 		HttpSession session=request.getSession();
 		int otp=(int)session.getAttribute("otp");
-		
-		
-		
+
 		RequestDispatcher dispatcher=null;
-		
 		
 		if (value==otp) 
 		{
