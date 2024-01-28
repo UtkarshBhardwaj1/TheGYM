@@ -20,7 +20,7 @@ public class ConnectionProvider {
 
                 //create a connection..
                 con = DriverManager.
-                        getConnection("jdbc:mysql:///test", "root", "root");
+                        getConnection("jdbc:mysql:///Database", "UserName", "examplePaswword"); // enter your database, username & pw
 
             }
 
